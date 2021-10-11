@@ -41,7 +41,6 @@ namespace LeetCodeExercises
                     result[0] = i;
                     dict.TryGetValue(target-nums[i], out result[1]);
                 }
-                //dict.Add(nums[i], i);
                 dict.TryAdd(nums[i], i);
             }
             return result;    
