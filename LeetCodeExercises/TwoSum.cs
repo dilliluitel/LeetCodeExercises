@@ -28,6 +28,7 @@ namespace LeetCodeExercises
             return result;
         }*/
 
+        //O(N) time complexity
         public int[] TwoSum2(int[] nums, int target)
         {
             // [2, 7, 8, 10, 11]
